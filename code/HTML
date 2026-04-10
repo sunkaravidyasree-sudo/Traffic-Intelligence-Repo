@@ -1,0 +1,25 @@
+<form method="POST" action="/predict"> 
+<label>Holiday:</label> 
+<input type="text" name="holiday" required> 
+<label>Weather:</label> 
+<input type="text" name="weather" required> 
+<label>Temperature:</label> 
+<input type="number" step="any" name="temp" required> 
+<label>Rain:</label> 
+<input type="number" step="any" name="rain" required> 
+<label>Snow:</label> 
+<input type="number" step="any" name="snow" required> 
+<label>Year:</label> 
+<input type="number" name="year" required> 
+<label>Month:</label> 
+<input type="number" name="month" required> 
+<label>Day:</label> 
+<input type="number" name="day" required> 
+<label>Hour:</label> 
+<input type="number" name="hours" required> 
+<label>Minute:</label> 
+<input type="number" name="minutes" required> 
+<label>Second:</label> 
+<input type="number" name="seconds" required> 
+<button type="submit">Predict</button> 
+</form>
